@@ -38,7 +38,7 @@ The project is divided into two primary layers:
 
 This repository provides two different methods of encoding data into light pulses.
 
-### 1. International Morse Code (Standard)
+### 1. International-Morse-Code 
 The preferred method for alphanumeric data. It uses timing ratios to distinguish between short and long pulses.
 * **Dit (`.`):** 200ms
 * **Dah (`-`):** 600ms (3x Dit)
@@ -47,7 +47,7 @@ The preferred method for alphanumeric data. It uses timing ratios to distinguish
 
 
 
-### 2. Blink-Count (Educational)
+### 2. Blink-Count 
 A simplified tally-based system where the number of pulses directly corresponds to a character's position in the alphabet.
 * **'a'** = 1 blink | **'b'** = 2 blinks | **'z'** = 26 blinks.
 * **Space/Punctuation:** Handled by 27–41 blinks.

@@ -45,12 +45,15 @@ The preferred method for alphanumeric data. It uses timing ratios to distinguish
 * **Character Gap:** 600ms
 * **Word Gap:** 1400ms
 
+( `International-Morse-Code.ino` contains all the arduino code for this architecture )
 
 
 ### 2. Blink-Count 
 A simplified tally-based system where the number of pulses directly corresponds to a character's position in the alphabet.
 * **'a'** = 1 blink | **'b'** = 2 blinks | **'z'** = 26 blinks.
 * **Space/Punctuation:** Handled by 27–41 blinks.
+
+( `blink-count.ino` contains all the arduino code for this architecture )
 
 ---
 
